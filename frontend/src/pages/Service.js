@@ -2,12 +2,9 @@ import React from 'react';
 
 const Service = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Welcome to Geo Assist!</h1>
-      <p className="text-gray-700">
-        At Geo Assist, we're your compass in the world of location services. Whether you're exploring a new city, searching for your dream home, or optimizing business decisions, we've got you covered.
-      </p>
-      <h2 className="text-lg font-semibold mt-6">Our Services:</h2>
+    <div id='service' className='w-full bg-gray-300 my-3 px-3 py-1 rounded-md flex items-stretch h-500'>
+      
+      <h1 className="text-2xl font-bold mb-4">Our Services</h1>
       <ul className="list-disc pl-6 mt-4">
         <li>
           <span className="font-semibold">All-in-One Amenities Search:</span> Discover nearby amenities—restaurants, schools, parks, and more—all in one place. No more juggling multiple apps or websites.
