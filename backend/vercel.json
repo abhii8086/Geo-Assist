@@ -2,15 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/index.py",
+      "src": "./index.py",
       "use": "@vercel/python"
     }
   ],
-  "buildCommand": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source $HOME/.cargo/env && pip install -r backend/requirements.txt",
   "routes": [
     {
       "src": "/(.*)",
-     "dest": "backend/index.py"
+     "dest": "/"
     }
   ],
   "env": {
